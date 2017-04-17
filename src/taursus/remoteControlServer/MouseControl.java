@@ -3,7 +3,7 @@ package taursus.remoteControlServer;
 import java.awt.Robot;
 import java.awt.event.InputEvent;
 
-import com.remoteControl.*;
+import taursus.remoteControl.*;
 
 public class MouseControl implements IMouseControl {
     protected Robot robot;

@@ -4,8 +4,8 @@ import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
 
-import com.remoteControl.ILogger;
-import com.remoteControl.IOptionsControl;
+import taursus.remoteControl.ILogger;
+import taursus.remoteControl.IOptionsControl;
 
 public class WindowsOptionsControl implements IOptionsControl {
     protected Robot robot;

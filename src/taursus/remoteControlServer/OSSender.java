@@ -2,12 +2,12 @@ package taursus.remoteControlServer;
 
 import org.apache.commons.lang3.SystemUtils;
 
-import com.remoteControl.EventData;
-import com.remoteControl.EventDataSender;
-import com.remoteControl.IEventData;
-import com.remoteControl.IEventDataSerializer;
-import com.remoteControl.IOnConnected;
-import com.remoteControl.ITransporter;
+import taursus.remoteControl.EventData;
+import taursus.remoteControl.EventDataSender;
+import taursus.remoteControl.IEventData;
+import taursus.remoteControl.IEventDataSerializer;
+import taursus.remoteControl.IOnConnected;
+import taursus.remoteControl.ITransporter;
 
 public class OSSender extends EventDataSender implements IOnConnected {
     public OSSender(ITransporter transporter, IEventDataSerializer serializer) {

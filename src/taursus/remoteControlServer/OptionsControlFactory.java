@@ -4,7 +4,7 @@ import java.awt.Robot;
 
 import org.apache.commons.lang3.SystemUtils;
 
-import com.remoteControl.IOptionsControl;
+import taursus.remoteControl.IOptionsControl;
 
 public class OptionsControlFactory {
 

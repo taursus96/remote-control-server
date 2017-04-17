@@ -1,11 +1,11 @@
 package taursus.remoteControlServer;
 
-import com.remoteControl.EventDataReceiver;
-import com.remoteControl.IEventData;
-import com.remoteControl.IEventDataSerializer;
-import com.remoteControl.IKeyboardControl;
-import com.remoteControl.ILogger;
-import com.remoteControl.ITransporter;
+import taursus.remoteControl.EventDataReceiver;
+import taursus.remoteControl.IEventData;
+import taursus.remoteControl.IEventDataSerializer;
+import taursus.remoteControl.IKeyboardControl;
+import taursus.remoteControl.ILogger;
+import taursus.remoteControl.ITransporter;
 
 public class KeyboardEventsListener extends EventDataReceiver {
     protected IKeyboardControl keyboardControl;

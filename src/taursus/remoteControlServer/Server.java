@@ -1,7 +1,7 @@
 package taursus.remoteControlServer;
 
-import com.remoteControl.ILogger;
-import com.remoteControl.Transporter;
+import taursus.remoteControl.ILogger;
+import taursus.remoteControl.Transporter;
 
 import java.io.IOException;
 import java.net.ServerSocket;

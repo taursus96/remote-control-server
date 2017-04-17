@@ -2,8 +2,8 @@ package taursus.remoteControlServer;
 
 import java.awt.Robot;
 
-import com.remoteControl.IKeyboardControl;
-import com.remoteControl.ILogger;
+import taursus.remoteControl.IKeyboardControl;
+import taursus.remoteControl.ILogger;
 
 public class KeyboardControl implements IKeyboardControl {
     protected Robot robot;

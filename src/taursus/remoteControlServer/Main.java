@@ -3,7 +3,7 @@ package taursus.remoteControlServer;
 import java.util.Scanner;
 import java.awt.AWTException;
 import java.awt.Robot;
-import com.remoteControl.*;
+import taursus.remoteControl.*;
 
 public class Main {
     public static void main(String[] args) {

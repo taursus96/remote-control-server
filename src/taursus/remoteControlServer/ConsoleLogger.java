@@ -1,6 +1,6 @@
 package taursus.remoteControlServer;
 
-import com.remoteControl.ILogger;
+import taursus.remoteControl.ILogger;
 
 public class ConsoleLogger implements ILogger {
     protected static class ConsoleLoggerLoader {
@@ -23,3 +23,4 @@ public class ConsoleLogger implements ILogger {
     }
 
 }
+

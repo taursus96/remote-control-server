@@ -1,6 +1,6 @@
 package taursus.remoteControlServer;
 
-import com.remoteControl.*;
+import taursus.remoteControl.*;
 
 public class OptionsEventsExecutor extends EventDataReceiver {
     protected IOptionsControl optionsControl;

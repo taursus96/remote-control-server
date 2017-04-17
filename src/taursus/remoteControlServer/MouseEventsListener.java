@@ -1,6 +1,6 @@
 package taursus.remoteControlServer;
 
-import com.remoteControl.*;
+import taursus.remoteControl.*;
 
 public class MouseEventsListener extends EventDataReceiver {
     protected IMouseControl mouseControl;

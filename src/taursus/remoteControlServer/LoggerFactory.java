@@ -1,6 +1,6 @@
 package taursus.remoteControlServer;
 
-import com.remoteControl.ILogger;
+import taursus.remoteControl.ILogger;
 
 public class LoggerFactory {
 
