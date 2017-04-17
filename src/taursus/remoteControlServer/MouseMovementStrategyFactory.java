@@ -16,7 +16,7 @@ public class MouseMovementStrategyFactory {
         IMouseMovementSensitivityStrategy sensitivityStrategy = MouseMovementSensitivityStrategyFactory.create();
 
         if (SystemUtils.IS_OS_LINUX) {
-            return (IMouseMovementStrategy) new AutomaticMouseMoveStrategy(robot, sensitivityStrategy);
+            return (IMouseMovementStrategy) new AutomaticMouseMovementStrategy(robot, sensitivityStrategy);
         }
 
         return (IMouseMovementStrategy) new ManualMouseMovementStrategy(robot, sensitivityStrategy);

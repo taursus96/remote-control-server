@@ -4,11 +4,11 @@ import java.awt.MouseInfo;
 import java.awt.Point;
 import java.awt.Robot;
 
-public class AutomaticMouseMoveStrategy implements IMouseMovementStrategy {
+public class AutomaticMouseMovementStrategy implements IMouseMovementStrategy {
     protected Robot robot;
     protected IMouseMovementSensitivityStrategy sensitivityStrategy;
 
-    public AutomaticMouseMoveStrategy(Robot robot, IMouseMovementSensitivityStrategy sensitivityStrategy) {
+    public AutomaticMouseMovementStrategy(Robot robot, IMouseMovementSensitivityStrategy sensitivityStrategy) {
         this.robot = robot;
         this.sensitivityStrategy = sensitivityStrategy;
     }
